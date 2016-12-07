@@ -1,6 +1,8 @@
 # speech-talk
 
 Simple example how to use speech recognition using SpeechRecognition and text to speech using gtts.
+For SpeechRecognition you need a mic.
+
 - SpeechRecognition: https://github.com/Uberi/speech_recognition
 - gTTS: https://pypi.python.org/pypi/gTTS
 
