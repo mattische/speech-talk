@@ -11,9 +11,8 @@ cd into folder
 ```
 $ source bin/activate
 ```
-do installs /w pip (pip install -r requirements.txt) and so forth - see requirements below.
-
-work
+* do installs /w pip (```$ pip install -r requirements.txt```) and so forth - see requirements below.
+* do your work
 ```
 $ deactivate
 ```
@@ -24,7 +23,7 @@ $ deactivate
 $ sudo apt-get install python3-dev portaudio19-dev python-all-dev flac
 $ pip install -r requirements.txt #in you active virtualenv
 ```
-possibly also;
+* possibly also;
 ```
 $ apt-get install python-pyaudio 
 ```
