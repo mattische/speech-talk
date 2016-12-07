@@ -1,12 +1,9 @@
-
 from gtts import gTTS 
 import speech_recognition as sr 
 import os
 import sys
 import time
 import _thread
-
-
 
 def play(txt):
     tts = gTTS(text=txt, lang="sv")
@@ -27,8 +24,8 @@ def speech2Txt():
     except sr.RequestError as e:
         print("Could not request results from Google Speech Recognition service")
 
+        
 def speech2Str():
-    
     try:
         os.system('cls' if os.name == 'nt' else 'clear')
         st = input("Enter text? ")
@@ -36,8 +33,6 @@ def speech2Str():
     except Exception:
         print("duh")
     
-
-
 
 while 1:
     q = input("Text to speech or speech to text? (t/s): ")
@@ -48,4 +43,3 @@ while 1:
     else:
         print("bye") 
         sys.exit()
-
