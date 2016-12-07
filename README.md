@@ -1,13 +1,15 @@
 # speech-talk
 
 Simple example how to use speech recognition using SpeechRecognition and text to speech using gtts.
+- SpeechRecognition: https://github.com/Uberi/speech_recognition
+- gTTS: https://pypi.python.org/pypi/gTTS
 
 
 ## With virtualenvwrapper:
 ```
 $ mkvirtualenv myFolderOfMyNewVenv
 ```
-cd into folder
+* cd into folder
 ```
 $ source bin/activate
 ```
