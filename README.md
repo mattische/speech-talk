@@ -13,7 +13,7 @@ $ mkvirtualenv myFolderOfMyNewVenv
 ```
 $ source bin/activate
 ```
-* do installs /w pip (```$ pip install -r requirements.txt```) and so forth - see requirements below.
+* make sure requirements is installed /w apt-get and pip (```$ pip install -r requirements.txt```) - see requirements below.
 * do your work
 ```
 $ deactivate
